@@ -50,10 +50,9 @@ const Banner = () => {
             <Container >
                 <Row className='align-item-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className='tagline' Welcome to my Portfolio></span>
+                        <span className='tagline'>Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Duy `}<span className='wrap'>{text}</span></h1>
                         <p>This is my profile</p>
-                        <button onCanPlay={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={24} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={7}>
                         <img src={headerImg} alt='Header Img'></img>
